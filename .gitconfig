@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = main
+
+[alias]
+lg1 = log --graph --abbrev-commit --decorate --oneline --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d' --all
+lg2 = log --graph --abbrev-commit --decorate --oneline --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an' --all
+lg = !"git lg1"
+pa = !git remote prune origin && git prune
+b-l = "!git branch | grep -v '^\\*'"
+b-c = "!git branch -D `git branch -l | grep -v -E '^\\*|^  master$|^  main$'`"
