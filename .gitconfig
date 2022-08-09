@@ -9,3 +9,4 @@ pa = !git remote prune origin && git prune
 bl = "!git branch | grep -v '^\\*'"
 bc = "!git branch -D `git branch -l | grep -v -E '^\\*|^  master$|^  main$'`"
 fa = !git fetch -a
+sc = !git stash clear
