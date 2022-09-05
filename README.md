@@ -46,6 +46,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH:-~/.oh-my-zsh/c
 brew install --cask visual-studio-code
 ```
 
+## fig Install
+```
+brew install --cask fig
+```
 
 ## Files move
 ```
