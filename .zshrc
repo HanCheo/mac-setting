@@ -1,12 +1,19 @@
 if [ -f ~/.bash_profile ]; then
   . ~/.bash_profile
 fi
- 
+
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="custom-headline"
 ZSH_DISABLE_COMPFIX="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-ZSH_CUSTOM="/Users/$USER/.zsh"
 
-plugins=(git)
-source $ZSH_CUSTOM/custom-headline.zsh-theme
+plugins=(
+	git
+	zsh-syntax-highlighting
+	you-should-use
+	zsh-autosuggestions
+	zsh-completions
+)
 
-alias zshconfig="vim ~/.zshrc"
+source $ZSH/oh-my-zsh.sh
