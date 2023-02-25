@@ -68,3 +68,5 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 |⌘ BackSpace| Word Delete |
 |⌥ BackSpace| Line Delete |
 
+
+see hidden files = cmd + shift + . (in finder)
