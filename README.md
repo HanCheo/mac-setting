@@ -1,19 +1,54 @@
 
+Tool
+- [ ] obsidian: Personal Markdown Note
+- [ ] tickTick: Planing Todo
+- [ ] whale: Browser
+- [ ] spectacle: Split Screen
+- [ ] appCleaner: Remove App
+- [ ] kakaotalk: SMS
+- [ ] slack: SMS
+- [ ] authy: 2FA
+- [ ] GoodNotes: PDF or Book Reader
+- [ ] runcat: CPU usage monitoring
+- [ ] paste: Copy Stack
+- [ ] zoom: Compony meeting
+- [ ] notion: Compony Document Sharing
 
-## brew install
+
+Dev
+- [ ] iterm2: Terminal
+- [ ] brew
 ```
+// brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-## plugin install
+- [ ] wget
+- ⌘+, -> appearance -> status bar loaction bottom
 ```
 brew install wget
 brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
+brew install --cask font-fira-code // font install
 brew install fig
-brew install git
+brew install git  
+// if you have credential files in '/.ssh' move to new mac
 brew install --cask visual-studio-code
 brew install awscli
+// if you have credential files in '/.aws' move to new mac
+
+brew install n
+n stable
+```
+- [ ] Docker
+- [ ] insomnia: API testing
+- [ ] mongo compass: MongoDB GUI tool
+- [ ] redisInsight: Redis GUI tool
+- [ ] sequlel Ace: mysql(RDS) GUI tool
+- [ ] xcode: Develop IOS
+- [ ] Docker: Container 
+- [ ] helm: Kubernetes package manager
+- [ ] openLens: managing k8s cluster
+```
+plugIn : @alebcay/openlens-node-pod-menu
 ```
 
 ## Files move
@@ -24,10 +59,6 @@ brew install awscli
 ```
 
 ## oh-my-zsh
-
-<p align="center">
-  <img width="480px" src="https://user-images.githubusercontent.com/38929712/183538244-601d4065-3f74-4aa2-a61a-bcb9786b5b75.gif" />
-</p>
 
 |키|설명|
 |---|---|
