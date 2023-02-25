@@ -66,6 +66,6 @@ plugIn : @alebcay/openlens-node-pod-menu
 |⌥←| Previous Word Start |
 |⌘→| Line of First |
 |⌥→| Next Word Start |
-|⌘ BackSpace| Word Delete |
-|⌥ BackSpace| Line Delete |
+|⌘ BackSpace| Line Delete |
+|⌥ BackSpace| Word Delete |
 
