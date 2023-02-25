@@ -37,17 +37,29 @@
 | helm | Kubernetes package manager | ```brew install helm```|
 | openLens | managing k8s cluster | ```brew install --cask openlens``` <br> ```plugIn : @alebcay/openlens-node-pod-menu```|
 
+## oh-my-zsh
 
-## Files move
+### FileMove
 ```
-\cp -f -R .zsh ~/.zsh
+\cp -f -R .zsh/custom-headline.zsh-theme ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/custom-headline.zsh-theme
 \cp -f .zshrc ~/.zshrc
 \cp -f .gitconfig ~/.gitconfig
 ```
+### Plugins
+```
+// zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+// you-should-use
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+// zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+// zsh-completions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 
-## oh-my-zsh
+```
 
-|키|설명|
+### Custom key Setting
+|Key| description |
 |---|---|
 |⌘←| Line of First |
 |⌥←| Previous Word Start |
