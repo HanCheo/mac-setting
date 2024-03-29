@@ -3,33 +3,29 @@
 |Tool| Desciption | etc |
 |---|---|---|
 |obsidian|Personal Markdown Note| https://obsidian.md/ |
-|tickTick|Planing Todo| https://ticktick.com/ |
-|whale| Browser | https://whale.naver.com/ |
-|spectacle| Split Screen | https://www.spectacleapp.com/ |
+|notion calendar|Planing| https://calendar.notion.so/ |
+|arc| Browser | https://arc.net/ |
+|Raycast| Launcher | https://www.raycast.com/ |
 |appCleaner| Remove App | https://freemacsoft.net/appcleaner/ |
 |kakaotalk| SMS | App Store |
-|slack| SMS | App Store |
-|authy| 2FA munti device | https://authy.com/ |
-|GoodNotes| PDF or Book Reader | https://www.goodnotes.com/ |
 |runcat| CPU usage monitoring | https://kyome.io/runcat/index.html?lang=en |
-|paste| Manage Clipboard Stack | https://pasteapp.io/ |
-|zoom|Compony meeting||
-|notion|Compony Document Sharing||
-
+|pasty| Manage Clipboard Stack | https://apps.apple.com/kr/app/clipboard-manager-pasty/id1544620654 |
 
 ## Dev
 |Tool| Desciption | etc |
 |---|---|---|
 |iterm2|Terminal| https://iterm2.com/ <br> ```⌘+, -> appearance -> status bar loaction bottom``` |
 |brew| MAC package manger| https://brew.sh/index_ko <br>```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` |
-|wget| network downloader | ```brew install wget ``` |
+| wget | network downloader | ```brew install wget ``` |
 | fira-code | font | ```brew tap homebrew/cask-fonts``` <br> ```brew install --cask font-fira-code``` |
+|nerd-font| font (lunarvim) | https://www.lunarvim.org/docs/installation/post-install |
 | git | use git api | ```brew install git``` <br> if you have credential files in '/.ssh' move to new mac |
-| visual-studio-code| text-editor | ```brew install --cask visual-studio-code```|
+| cursor | text-editor | https://cursor.sh |
+| zed | text-editor | https://zed.dev/ |
 | aws | aws-account login | ```brew install awscli``` <br> if you have credential files in '/.aws' move to new mac |
 | n | node version manager | ```brew install n``` <br> ```n stable``` |
 | Docker | container managing | ```brew install --cask docker``` |
-| insomnia | API testing | https://insomnia.rest/download |
+| Bruno | API testing | https://docs.usebruno.com/ |
 | mongo compass | MongoDB GUI tool | https://www.mongodb.com/products/compass |
 | redisInsight | Redis GUI tool | https://redis.com/redis-enterprise/redis-insight/ |
 | sequlel Ace | mysql GUI tool | https://sequel-ace.com/ |
@@ -67,6 +63,5 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 |⌥→| Next Word Start |
 |⌘ BackSpace| Word Delete |
 |⌥ BackSpace| Line Delete |
-
 
 see hidden files = cmd + shift + . (in finder)
