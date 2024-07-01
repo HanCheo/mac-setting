@@ -8,8 +8,6 @@
 |Raycast| Launcher | https://www.raycast.com/ |
 |appCleaner| Remove App | https://freemacsoft.net/appcleaner/ |
 |kakaotalk| SMS | App Store |
-|runcat| CPU usage monitoring | https://kyome.io/runcat/index.html?lang=en |
-|pasty| Manage Clipboard Stack | https://apps.apple.com/kr/app/clipboard-manager-pasty/id1544620654 |
 
 ## Dev
 |Tool| Desciption | etc |
@@ -17,8 +15,7 @@
 |iterm2|Terminal| https://iterm2.com/ <br> ```⌘+, -> appearance -> status bar loaction bottom``` |
 |brew| MAC package manger| https://brew.sh/index_ko <br>```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` |
 | wget | network downloader | ```brew install wget ``` |
-| fira-code | font | ```brew tap homebrew/cask-fonts``` <br> ```brew install --cask font-fira-code``` |
-|nerd-font| font (lunarvim) | https://www.lunarvim.org/docs/installation/post-install |
+| nerd-font | font (lunarvim) | https://www.lunarvim.org/docs/installation/post-install |
 | git | use git api | ```brew install git``` <br> if you have credential files in '/.ssh' move to new mac |
 | cursor | text-editor | https://cursor.sh |
 | zed | text-editor | https://zed.dev/ |
