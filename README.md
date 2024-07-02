@@ -22,7 +22,7 @@
 | aws | aws-account login | ```brew install awscli``` <br> if you have credential files in '/.aws' move to new mac |
 | n | node version manager | ```brew install n``` <br> ```n stable``` |
 | corepack | package manager | ```brew install corepack```<br> ```corepack enable``` |
-| Docker | container managing | ```brew install --cask docker``` |
+| podman | container managing | ```brew install podman``` |
 | Bruno | API testing | https://docs.usebruno.com/ |
 | mongo compass | MongoDB GUI tool | https://www.mongodb.com/products/compass |
 | redisInsight | Redis GUI tool | `brew install --cask redisinsight` |
