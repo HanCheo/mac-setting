@@ -25,7 +25,7 @@
 | Docker | container managing | ```brew install --cask docker``` |
 | Bruno | API testing | https://docs.usebruno.com/ |
 | mongo compass | MongoDB GUI tool | https://www.mongodb.com/products/compass |
-| redisInsight | Redis GUI tool | https://redis.com/redis-enterprise/redis-insight/ |
+| redisInsight | Redis GUI tool | brew install --cask redisinsight |
 | sequlel Ace | mysql GUI tool | https://sequel-ace.com/ |
 | xcode | Develop IOS | App Store |
 | helm | Kubernetes package manager | ```brew install helm```|
