@@ -25,8 +25,8 @@
 | Docker | container managing | ```brew install --cask docker``` |
 | Bruno | API testing | https://docs.usebruno.com/ |
 | mongo compass | MongoDB GUI tool | https://www.mongodb.com/products/compass |
-| redisInsight | Redis GUI tool | brew install --cask redisinsight |
-| sequlel Ace | mysql GUI tool | https://sequel-ace.com/ |
+| redisInsight | Redis GUI tool | `brew install --cask redisinsight` |
+| DBeaver | mysql GUI tool | `brew install --cask dbeaver-community` |
 | xcode | Develop IOS | App Store |
 | helm | Kubernetes package manager | ```brew install helm```|
 | openLens | managing k8s cluster | ```brew install --cask openlens``` <br> ```plugIn : @alebcay/openlens-node-pod-menu```|
